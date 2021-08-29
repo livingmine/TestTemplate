@@ -29,7 +29,7 @@ import {
 
 const Section: React.FC<{
   title: string;
-}> = ({children, title}) => {
+}> = ({ children, title }) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -112,6 +112,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export {default} from "./storybook";
-
-// export default App;
+export default App;
