@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx --no-install commitlint --edit $1 --help-url="Please use *npm run cm* to commit!"
+npx --no-install commitlint --edit  --help-url="Please use *npm run cm* to commit!"
